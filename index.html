@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>AppDeGatos</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <style>
+      body {
+          background-color: #D7BDE2;
+          font-family: Arial, sans-serif;
+        }
+        h1 {
+          color: rgb(0, 255, 128);
+          text-align: center;
+          font-size: 25px;
+        }
+        h2 {
+          color: rgb(60, 111, 241);
+          text-align: center;
+        }
+        h3 {
+          color: red;
+          text-align: center;
+        }
+        p{
+          
+          text-align: center;
+        }
+        h4 {
+          color: orange;
+          text-align: center;
+        }
+        h5 {
+          color: pink;
+          text-align: center;
+        }
+        h6 {
+          color: purple;
+          text-align: center;
+          font-size: 25;
+        }
+        
+        ul, ol {
+          text-align: center;
+          list-style: none;
+        }
+        
+        img {
+          display: block;
+          margin: auto;
+          border: 2px solid black;
+          filter: drop-shadow(0 0 5px rgb(0, 255, 42));
+        }
+        
+        form {
+          text-align: center;
+        }
+        
+        input[type="text"], input[type="url"] {
+          padding: 5px;
+          border-radius: 5px;
+          border: none;
+          box-shadow: 1px 1px 1px grey;
+          margin-bottom: 10px;
+        }
+        
+        button {
+          padding: 5px 10px;
+          border-radius: 5px;
+          border: none;
+          background-color: #4CAF50;
+          color: white;
+          margin-top: 10px;
+        }
+        
+        button[type="reset"] {
+          background-color: #f44336;
+        }
+        
+        footer {
+          text-align: center;
+          margin-top: 50px;
+          color: grey;
+          font-size: 12px;
+        }
+      </style>
+    <style>
+      html {height: 100%;}body {background-image: linear-gradient(#ffce3ce5, rgba(246, 106, 59, 0.857));}
+      </style>
+    <center><h1>AppDeGatos</h1></center>
+    <main>
+      <h3>Imágenes de Gatos:</h3>
+      <!-- TODO: Agregar enlace a imágenes de gatos -->
+      <p>Haz click aquí para ver más <a href="https://unsplash.com/es/images/animals/kitten" target="_blank" rel="noopener noreferrer">imágenes de gatos.</a></p>
+
+      <a href="#" target="_blank" rel="noopener noreferrer"><img src="https://bit.ly/fcc-relaxing-cat" alt="Un lindo gato naranja recostado sobre su espalda."></a>
+
+
+
+      <h3>Listas de Gatos</h3>
+
+      <div>
+        <p>Cosas que los gatos <em>aman</em>:</p>
+        <ul>
+          <li>Menta gatuna</li>
+          <li>Apuntadores Láser</li>
+          <li>Lasaña</li>
+        </ul>
+        <img src="l.jpeg" width="300" height="200" alt="Lasaña">
+
+        <p>Cosas que los gatos <strong>odian</strong>:</p>
+        <ol>
+          <li>Tratamientos antipulgas</li>
+          <li>Truenos</li>
+          <li>Otros gatos</li>
+        </ol>
+      </div>
+      <img src="g.jpg" width="250" alt="Gatos">
+
+      <form target="_blank" action="https://formsubmit.co/josegabrielzetoromero@gmail.com" method="POST"><br>
+        <!-- Botones de Radio -->
+        <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior">Interior
+        </label>
+        <br>
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior">Exterior
+        </label>
+        <br>
+
+    
+  
+          <h3>¿Cómo suele ser su gato?</h3>
+          <input type="checkbox">Amoroso
+          <input type="checkbox">Peresoso
+          <input type="checkbox">Enérgico
+        <br>
+        <input type="text" placeholder="URL de la foto de su gato" required><br>
+    
+     
+        <div class="col">
+          <div class="container">
+            <h1>Cuentanos Acerca de ti </h1>
+              <div class="form-group">
+                <div class="mb-3">
+                  <div class="col">
+                    <input type="text" name="name" class="form-control" placeholder="Nombre Completo" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" name="email" class="form-control" placeholder="Escribe Tu Correo" required>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <textarea placeholder="Dejanos Tu Comentario" class="form-control" name="message" rows="3" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-lg btn-dark btn-block">Enviar</button>
+            </form>
+        <button type="reset">Limpiar</button>
+      </form>
+    </main>
+    <br>
+    <footer>
+      <p><small>Sin Derechos de Autor - <a href="https://www.freecodecamp.org/espanol/">freeCodeCamp.org</a></small></p>
+    </footer>
+  </body>
+</html>
